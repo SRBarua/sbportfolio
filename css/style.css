@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html body {
+  background-image: url("../images/image-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh; }
+
+.navbar {
+  padding: 2.5rem 1rem; }
+
+.navbar-nav .nav-link {
+  color: #C0C0C0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px; }
+
+.main {
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.7), rgba(255, 0, 0, 0.5), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0));
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 500px;
+  -webkit-animation: mymove 5s infinite;
+  /* Chrome, Safari, Opera */
+  animation: mymove 5s infinite; }
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  from {
+    background-color: rgba(0, 0, 0, 0.2), rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0), rgba(255, 0, 0, 0); }
+  to {
+    background-color: rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.2), rgba(255, 0, 0, 0.5); } }
+
+/* Standard syntax */
+@keyframes mymove {
+  from {
+    background-color: rgba(255, 0, 0, 0.2); }
+  to {
+    background-color: rgba(255, 0, 0, 0), rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0); } }
+
+.main-div {
+  color: #fff;
+  position: relative;
+  height: 300px;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.next {
+  color: #fff;
+  float: right;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 37px; }
+
+.content {
+  position: relative;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 45px; }
+  .content hr {
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: .3rem;
+    width: 70%; }
+  .content .text {
+    font-size: 40px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 300px; }
+  .content .ml2 {
+    font-size: 60px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2.5px 2.5px black;
+    position: relative; }
+  .content .ml2 .letter {
+    display: inline-block;
+    line-height: 1em; }
+  .content .subtitle {
+    font-size: 20px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 100;
+    letter-spacing: 3.7px; }
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 3px 0;
+  font-size: 14px; }
+  .footer p {
+    margin-bottom: 4px;
+    color: grey; }
+  .footer p a {
+    color: grey; }
+  .footer hr {
+    text-align: center;
+    border: 0;
+    height: 1px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: .3rem; }
+  .footer li {
+    list-style: none; }
+    .footer li a {
+      padding: 0 20px;
+      color: grey; }
